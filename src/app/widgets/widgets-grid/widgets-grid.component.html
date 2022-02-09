@@ -1,0 +1,10 @@
+<mat-grid-list [rowHeight]="height" [cols]="columns" gutterSize="5px">
+  <mat-grid-tile
+    *ngFor="let widgetDefinition of widgetDefinitions"
+    [colspan]="widgetDefinition.widgetConfiguration.typeProp.width"
+    [rowspan]="widgetDefinition.widgetConfiguration.typeProp.height"
+  >
+    <ng-template [widgetFactory] [widgetDefinition]="widgetDefinition"></ng-template>
+  </mat-grid-tile>
+</mat-grid-list>
+<p>Current BP {{ currentBreakPoint }}</p>

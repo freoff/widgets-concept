@@ -1,0 +1,15 @@
+@mixin widget-wrapper()
+  display: block
+  width: 100%
+  height: 100%
+
+@mixin widget()
+  :host
+    @include widget-wrapper()
+    background-color: var(--widget-bg)
+    color: var(--widget-color)
+    border: var(--widget-border)
+    border-radius: var(--widget-border-radius)
+    padding: .3rem .8rem
+  :host(:hover)
+    background-color: var(--widget-hover-bg)
