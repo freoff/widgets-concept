@@ -1,11 +1,16 @@
-# WidgetConcept
+### tood
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
+- responsive
+- optimize positions
 
-#positioning
+### positioning
 
 - https://github.com/TeamHypersomnia/rectpack2D
 - https://github.com/mapbox/potpack
+
+# WidgetConcept
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.5.
 
 ## Development server
 
